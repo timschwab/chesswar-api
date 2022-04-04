@@ -6,13 +6,13 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
 	cors: {
-		origin: "http://localhost:64355",
+		origin: "https://chesswar.io",
 		methods: ["GET", "POST"]
 	}
 });
 
 // Constants
-const port = 64356;
+const port = 8001;
 
 // Serve it up
 io.on('connection', (socket) => {

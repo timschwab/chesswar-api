@@ -1,0 +1,18 @@
+{
+	"author": "Tim Schwab",
+	"name": "chesswar-api",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timschwab/chesswar-api.git"
+	},
+	"bugs": {
+		"url": "https://github.com/timschwab/chesswar-api/issues"
+	},
+	"homepage": "https://github.com/timschwab/chesswar-api",
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^4.4.1",
+		"uuid": "^8.3.2"
+	}
+}

@@ -12,7 +12,7 @@ const io = new Server(server, {
 });
 
 // Constants
-const port = 8001;
+const port = 8000;
 
 // Serve it up
 io.on('connection', (socket) => {
